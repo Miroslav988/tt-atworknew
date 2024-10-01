@@ -1,3 +1,7 @@
+@import url("./Font/font.css");
+* {
+  font-family: "Manrope";
+}
 .title {
   font-size: 24px;
   font-weight: 600;

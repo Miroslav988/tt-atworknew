@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  height: 813px;
+  width: 360px;
+  padding: 40px;
+  gap: 40px;
+  border-radius: 16px;
+  background-color: #fdfdfd;
+}
+.profilePicture {
+  width: 280px;
+  height: 485px;
+  border-radius: 8px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+.categories {
+  width: 280px;
+  height: 208px;
+}
+.category {
+  border-bottom: 1px solid #dadada;
+  color: #9c9c9c;
+  padding-bottom: 13px;
+}

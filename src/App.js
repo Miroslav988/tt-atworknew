@@ -21,7 +21,6 @@ function App() {
       setArchiveUsers(archiveUsers.filter((u) => u !== user));
       setActivUsers([...activUsers, user]);
     }
-    // Обновляем состояние isActive для соответствующей карточки
     const updatedUsers = [...activUsers, ...archiveUsers];
     const index = updatedUsers.findIndex((u) => u.id === user.id);
     if (index !== -1) {

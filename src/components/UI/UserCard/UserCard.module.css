@@ -30,7 +30,7 @@
   color: #22a0bc;
   white-space: nowrap;
   overflow: hidden;
-  margin-bottom: 4px;
+  padding-bottom: 5px;
 }
 .companyName {
   text-overflow: ellipsis;
