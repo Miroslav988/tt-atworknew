@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import cl from "./UserCard.module.css";
 import "../../../App.css";
 import MyEditBtn from "../MyEditBtn/MyEditBtn";
@@ -10,6 +10,7 @@ const UserCard = ({
   isActive,
   onToggleActive,
   onDeleteCard,
+  onEditUser,
   user,
 }) => {
   return (
@@ -18,6 +19,7 @@ const UserCard = ({
         isActive={isActive}
         onToggleActive={onToggleActive}
         onDeleteCard={() => onDeleteCard(user)}
+        onEditUser={() => onEditUser(user)}
       />
       <div
         className={cl.userPhoto}

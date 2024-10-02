@@ -1,0 +1,29 @@
+.editFormContainer {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: 760px;
+  height: 813px;
+  background-color: #fdfdfd;
+  border-radius: 16px;
+  padding: 40px;
+}
+.editContainer {
+  display: flex;
+  width: 1160px;
+  gap: 40px;
+  margin: auto;
+}
+.backBtn {
+  display: flex;
+  width: 1160px;
+  background-color: transparent;
+  border: none;
+  margin: auto;
+}
+.backIcon {
+  background-image: url("../imsges/Backarrow.svg");
+  width: 28px;
+  height: 28px;
+  background-repeat: no-repeat;
+}

@@ -1,9 +1,14 @@
 import React, { useState } from "react";
 import cl from "./MyEditBtn.module.css";
 
-const MyEditBtn = ({ isActive, onToggleActive, onDeleteCard }) => {
+const MyEditBtn = ({
+  isActive,
+  onToggleActive,
+  onDeleteCard,
+  handleEdit,
+  onEditUser,
+}) => {
   const [isOpen, setIsOpen] = useState(false);
-
   const btnClick = () => {
     setIsOpen(!isOpen);
   };
@@ -23,7 +28,9 @@ const MyEditBtn = ({ isActive, onToggleActive, onDeleteCard }) => {
         <div className={cl.selectMenu}>
           {isActive ? (
             <>
-              <button className={`${cl.option} t2M`}>Редактировать</button>
+              <button className={`${cl.option} t2M`} onClick={onEditUser}>
+                Редактировать
+              </button>
               <button
                 className={`${cl.option} t2M`}
                 onClick={handleToggleActive}

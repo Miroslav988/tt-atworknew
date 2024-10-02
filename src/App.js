@@ -5,9 +5,15 @@ import ArchiveContainer from "./components/ArchiveContainer/ArchiveContainer";
 import Myheader from "./components/MyHeader/Myheader";
 import "./normalize.css";
 import fetchUsers from "./FetchUsers ";
+import { useNavigate } from "react-router-dom";
 function App() {
+  const navigate = useNavigate();
   const [activUsers, setActivUsers] = useState([]);
   const [archiveUsers, setArchiveUsers] = useState([]);
+  const handleEditUser = (user) => {
+    console.log(user);
+    navigate("/edit", { state: { user } });
+  };
   useEffect(() => {
     fetchUsers().then((users) => {
       setActivUsers(users);
@@ -37,6 +43,7 @@ function App() {
         users={activUsers}
         onToggleActive={handleToggleActive}
         onDeleteCard={handleDeleteCard}
+        onEditUser={handleEditUser}
       />
       <ArchiveContainer
         users={archiveUsers}

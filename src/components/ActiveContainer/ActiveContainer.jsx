@@ -2,7 +2,12 @@ import React from "react";
 import UserCard from "../UI/UserCard/UserCard";
 import cl from "./ActiveContainer.module.css";
 
-const ActiveContainer = ({ users, onToggleActive, onDeleteCard }) => {
+const ActiveContainer = ({
+  users,
+  onToggleActive,
+  onDeleteCard,
+  onEditUser,
+}) => {
   return (
     <section>
       <h1 className={`${cl.containerTitle} title`}>Активные</h1>
@@ -19,6 +24,7 @@ const ActiveContainer = ({ users, onToggleActive, onDeleteCard }) => {
             isActive={true}
             onToggleActive={() => onToggleActive(user, true)}
             onDeleteCard={onDeleteCard}
+            onEditUser={onEditUser}
             user={user}
           />
         ))}

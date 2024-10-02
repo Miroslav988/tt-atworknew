@@ -3,8 +3,8 @@ import cl from "./MyInput.module.css";
 const MyInput = ({ label, type, data }) => {
   return (
     <div className={cl.inputForm}>
-      <label>{label}</label>
-      <input type={type} value={data} />
+      <label className={`${cl.label} t1S`}>{label}</label>
+      <input type={type} defaultValue={data} />
     </div>
   );
 };
