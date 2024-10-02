@@ -9,6 +9,7 @@
   border-bottom: 1px solid #dadada;
 }
 .btn {
+  cursor: pointer;
   width: 170px;
   height: 46px;
   padding: 12px 42px;
@@ -17,4 +18,8 @@
   color: #fdfdfd;
   background-color: #161616;
   margin-top: 8px;
+  border: none;
+}
+.btn:hover {
+  filter: invert(1);
 }

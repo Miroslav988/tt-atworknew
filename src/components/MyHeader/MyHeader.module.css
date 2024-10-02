@@ -16,6 +16,7 @@ header {
   background-image: url("../../imsges/Frame 4069.png");
   height: 24px;
   width: 124px;
+  cursor: pointer;
 }
 .userContainer {
   display: flex;
@@ -28,6 +29,7 @@ header {
   height: 24px;
   padding: 0;
   border: none;
+  cursor: pointer;
 }
 .like {
   background: url("../../imsges/Favorite.svg");
@@ -38,6 +40,7 @@ header {
   margin-left: 4px;
 }
 .userPhoto {
+  cursor: pointer;
   width: 20px;
   height: 20px;
   margin-right: 18px;
@@ -46,4 +49,8 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url("https://s3-alpha-sig.figma.com/img/4d47/8bb4/c4df08734f93921230736e92b21788b4?Expires=1728864000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=IKSHU-G3CTUT1rAwlMV1FGNCrCFG3etFuXwS~Ii-FZ6-qw4tG5KgOx1iVg3ezxDpEZo7Npi0wXQ970D~Gls7NnGZW-ykC3eNLgFf9anN-Rj8DR10tXhuIC7MeCv6yhvI5-4~81B0v3DeCr2C-269SCF1KalwOBLcPkvaaidm0JEmNZhtsMlW3tUGKHvtW0LqXi3XHXTg6up9ZnCLXDGK7-w7oe~LSylGj4dm4FnoQaRDQeyhHTArAgu6TbQ~p-P1UyrccW31mWCJczGrykviiZmyxNXLPLIi-MBKise7aLon2NefIj7PVyJH5H2JSS-2NWyYYpt-ATOo9liV2-evNw__");
+}
+
+.btn:hover {
+  opacity: 0.6;
 }

@@ -4,7 +4,7 @@ const Myheader = () => {
   return (
     <header>
       <div className={cl.headerContainer}>
-        <div className={cl.logo}></div>
+        <div href={"#"} className={cl.logo}></div>
         <div className={cl.userContainer}>
           <button className={cl.btn + " " + cl.like}></button>
           <button className={cl.btn + " " + cl.notif}></button>

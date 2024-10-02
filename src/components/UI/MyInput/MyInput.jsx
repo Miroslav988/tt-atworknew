@@ -4,7 +4,7 @@ const MyInput = ({ label, type, data }) => {
   return (
     <div className={cl.inputForm}>
       <label className={`${cl.label} t1S`}>{label}</label>
-      <input type={type} defaultValue={data} />
+      <input required={true} type={type} defaultValue={data} />
     </div>
   );
 };

@@ -24,4 +24,9 @@
   border-bottom: 1px solid #dadada;
   color: #9c9c9c;
   padding-bottom: 13px;
+  cursor: pointer;
+}
+
+.category:hover {
+  color: #22a0bc;
 }

@@ -20,6 +20,9 @@
   background-color: transparent;
   border: none;
   margin: auto;
+  margin-bottom: 44px;
+  margin-top: -20px;
+  cursor: pointer;
 }
 .backIcon {
   background-image: url("../imsges/Backarrow.svg");
