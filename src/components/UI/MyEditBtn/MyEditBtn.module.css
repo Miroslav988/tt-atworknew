@@ -3,6 +3,7 @@
   background: none;
   border: none;
   transform: rotate(90deg);
+  font-size: 18px;
   right: 24px;
   top: 25px;
   width: 24px;
@@ -43,8 +44,9 @@
 }
 @media (max-width: 380px) {
   .btn {
-    top: 136px;
+    top: 139px;
     right: 3px;
+    font-size: 14px;
   }
   .selectMenu {
     width: 140px;
