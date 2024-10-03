@@ -43,4 +43,11 @@
   margin: auto;
 }
 @media (max-width: 380px) {
+  .popUpCont {
+    left: 10%;
+    top: 10%;
+    width: 271px;
+    height: 189px;
+    padding: 32px;
+  }
 }
