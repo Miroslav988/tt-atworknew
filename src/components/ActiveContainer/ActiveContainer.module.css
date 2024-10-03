@@ -13,3 +13,11 @@
   padding-bottom: 16px;
   border-bottom: 1px solid #dadada;
 }
+@media (max-width: 380px) {
+  .container {
+    gap: 32px;
+  }
+  .containerTitle {
+    width: 90%;
+  }
+}

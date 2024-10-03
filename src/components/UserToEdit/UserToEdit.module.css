@@ -30,3 +30,12 @@
 .category:hover {
   color: #22a0bc;
 }
+@media (max-width: 380px) {
+  .profilePicture {
+    width: 287px;
+    height: 187px;
+  }
+  .container {
+    width: 343px;
+  }
+}

@@ -29,38 +29,35 @@
 .caption {
   font-size: 14px;
 }
-
-.Mtitle {
-  font-size: 24px;
-  font-weight: 600;
-}
-.Mheadline {
-  font-size: 18px;
-  font-weight: 600;
-}
-.Mt1S {
-  font-size: 16px;
-  font-weight: 600;
-}
-.Mt1M {
-  font-size: 16px;
-  font-weight: 500;
-}
-.Mt2S {
-  font-size: 114px;
-  font-weight: 600;
-}
-.Mt2M {
-  font-size: 14px;
-  font-weight: 500;
-}
-.Mcaption {
-  font-size: 10px;
-  font-weight: 600;
-}
 .App {
   display: flex;
   width: 100%;
   flex-direction: column;
   justify-content: center;
+}
+@media (max-width: 380px) {
+  .headline {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .t1S {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .t1M {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .t2S {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .t2M {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .caption {
+    font-size: 10px;
+    font-weight: 600;
+  }
 }

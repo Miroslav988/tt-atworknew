@@ -41,3 +41,18 @@
 .option:hover {
   color: #22a0bc;
 }
+@media (max-width: 380px) {
+  .btn {
+    top: 136px;
+    right: 3px;
+  }
+  .selectMenu {
+    width: 140px;
+    height: 118px;
+    top: 123px;
+    left: 0px;
+  }
+  .option {
+    width: 100%;
+  }
+}

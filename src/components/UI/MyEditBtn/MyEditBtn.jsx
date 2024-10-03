@@ -42,7 +42,11 @@ const MyEditBtn = ({
               </button>
             </>
           ) : (
-            <option className={`${cl.option} t2M`} onClick={handleToggleActive}>
+            <option
+              style={{ height: "54px" }}
+              className={`${cl.option} t2M`}
+              onClick={handleToggleActive}
+            >
               Активировать
             </option>
           )}

@@ -30,3 +30,16 @@
   height: 28px;
   background-repeat: no-repeat;
 }
+@media (max-width: 380px) {
+  .editContainer {
+    flex-direction: column;
+    width: 343px;
+    margin: auto;
+  }
+  .editFormContainer {
+    width: 343px;
+  }
+  .backBtn {
+    width: 90%;
+  }
+}

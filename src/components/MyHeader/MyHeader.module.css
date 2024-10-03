@@ -54,3 +54,17 @@ header {
 .btn:hover {
   opacity: 0.6;
 }
+@media (max-width: 380px) {
+  .btn {
+    display: none;
+  }
+  .userName {
+    display: none;
+  }
+  .headerContainer {
+    width: 90%;
+  }
+  .userPhoto {
+    margin: 0;
+  }
+}

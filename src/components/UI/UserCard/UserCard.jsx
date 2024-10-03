@@ -26,7 +26,7 @@ const UserCard = ({
         style={{ backgroundImage: `url(${url})` }}
       ></div>
       <div className={cl.infoContainer}>
-        <h1 className={`${cl.userName} title`}>{userName}</h1>
+        <h1 className={`${cl.userName} headline`}>{userName}</h1>
         <h3 className={`${cl.companyName} t2M`}>{companyName}</h3>
         <p className={`${cl.city} caption`}>{city}</p>
       </div>

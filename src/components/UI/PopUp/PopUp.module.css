@@ -42,3 +42,5 @@
   background-repeat: no-repeat;
   margin: auto;
 }
+@media (max-width: 380px) {
+}
