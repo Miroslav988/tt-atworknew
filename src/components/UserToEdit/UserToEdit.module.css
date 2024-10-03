@@ -30,7 +30,7 @@
 .category:hover {
   color: #22a0bc;
 }
-@media (max-width: 380px) {
+@media (max-width: 415px) {
   .profilePicture {
     width: 287px;
     height: 187px;

@@ -54,7 +54,7 @@ header {
 .btn:hover {
   opacity: 0.6;
 }
-@media (max-width: 380px) {
+@media (max-width: 415px) {
   .btn {
     display: none;
   }

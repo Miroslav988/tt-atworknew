@@ -13,6 +13,7 @@
   width: 1160px;
   gap: 40px;
   margin: auto;
+  margin-bottom: 265px;
 }
 .backBtn {
   display: flex;
@@ -30,11 +31,12 @@
   height: 28px;
   background-repeat: no-repeat;
 }
-@media (max-width: 380px) {
+@media (max-width: 415px) {
   .editContainer {
     flex-direction: column;
     width: 343px;
     margin: auto;
+    margin-bottom: 32px;
   }
   .editFormContainer {
     width: 343px;

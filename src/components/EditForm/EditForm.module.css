@@ -24,7 +24,7 @@
 .btn:hover {
   filter: invert(1);
 }
-@media (max-width: 380px) {
+@media (max-width: 415px) {
   .caption {
     width: 90%;
   }
