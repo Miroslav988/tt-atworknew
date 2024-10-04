@@ -10,6 +10,7 @@ function App() {
   const navigate = useNavigate();
   const [activUsers, setActivUsers] = useState([]);
   const [archiveUsers, setArchiveUsers] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
   const handleEditUser = (user) => {
     console.log(user);
     navigate("/edit", { state: { user } });
@@ -17,6 +18,7 @@ function App() {
   useEffect(() => {
     fetchUsers().then((users) => {
       setActivUsers(users);
+      setIsLoading(false);
     });
   }, []);
   const handleToggleActive = (user, isActive) => {
@@ -39,6 +41,7 @@ function App() {
   return (
     <div className="App">
       <Myheader />
+      {isLoading ? <p style={{ margin: "auto" }}>Идет загрузка...</p> : <></>}
       <ActiveContainer
         users={activUsers}
         onToggleActive={handleToggleActive}
