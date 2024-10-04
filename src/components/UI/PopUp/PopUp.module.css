@@ -42,7 +42,7 @@
   background-repeat: no-repeat;
   margin: auto;
 }
-@media (max-width: 380px) {
+@media (max-width: 415px) {
   .popUpCont {
     left: 10%;
     top: 10%;
